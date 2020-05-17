@@ -3,5 +3,11 @@
 def fizzbuzz(userInput)
   if userInput % 3 == 0
     "Fizz"
+  end elsif userInput % 5 == 0
+    puts "buzz"
+  end elsif userInput % 3 == 0 && userInput % 5 == 0
+    puts "fizzbuzz"
+  end else 
+    puts "nil"
   end
 end
