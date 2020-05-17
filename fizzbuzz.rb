@@ -11,4 +11,3 @@ def fizzbuzz(userInput)
       "nil"
    end
   end
-end
