@@ -5,5 +5,10 @@ def fizzbuzz(userInput)
     "Fizz"
   elsif userInput % 5 == 0
      "Buzz"
+   elsif userInput % 3 == 0 && userInput % 5 == 0
+     "FizzBuzz"
+   else
+      "nil"
+   end
   end
 end
